@@ -1,24 +1,11 @@
-import Header from "./Components/header"
-import Kontrib from "./Components/kontrib"
-import Roadmap from "./Components/roadmap"
-import './index.css';
+import React from 'react'
 
-function App() {
-  return (
-    <>
-    <div>
-      <header className="App-header">
-        <Header />
-      </header>
-    </div>
-    <div>
-      <Kontrib />
-    </div>
-    <div>
-      <Roadmap />
-    </div>
-    </>
-  );
+const App = () => {
+    return (
+        <div>
+            <h1>GPT-3</h1>
+        </div>
+    )
 }
 
-export default App;
+export default App
