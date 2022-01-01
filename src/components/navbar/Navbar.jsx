@@ -6,6 +6,7 @@ import './navbar.css';
 const Menu = () => (
     <>
     <p><a href="#kontribute_home">Kontribute.App</a></p>
+    <p><a href="#kontribute_blog">Development</a></p>
     </>
 )
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/"><button type="button">Enter Dapp</button></a>
+        <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/" target="_blank"><button type="button">Enter Dapp</button></a>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
