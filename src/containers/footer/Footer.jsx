@@ -8,9 +8,9 @@ const Footer = () => (
       <h1 className="gradient__text">Stay in touch with us!</h1>
     </div>
     <div className="gpt3__footer-icons">
-      <a href="https://discord.gg/S3qRpq8R6e" target="_blank"><FaDiscord /></a>
-      <a href="#"><FaTwitter /></a>
-      <a href="https://github.com/jesssekeogh/bonsai_dapp" target="_blank"><FaGithub /></a>
+      <a href="https://discord.gg/S3qRpq8R6e" target="_blank" rel="noreferrer"><FaDiscord /></a>
+      <a href="https://mobile.twitter.com/TeamBonsai_ICP" target="_blank" rel="noreferrer"><FaTwitter /></a>
+      <a href="https://github.com/jesssekeogh/bonsai_dapp" target="_blank" rel="noreferrer"><FaGithub /></a>
     </div>
 
     <div className="gpt3__footer-copyright">

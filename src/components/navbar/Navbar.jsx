@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/kontribute_logo.png';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 
 const Menu = () => (
     <>
-    <p><a href="#kontribute_home">Kontribute.App</a></p>
-    <p><a href="#kontribute_blog">Development</a></p>
+    <Link to="/">
+    <p>Kontribute.App</p>
+    </Link>
+    <Link to="/blog">
+    <p>Development</p>
+    </Link>
     </>
 )
 const Navbar = () => {
@@ -23,7 +28,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/" target="_blank"><button type="button">Enter Dapp</button></a>
+        <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/" target="_blank" rel="noreferrer"><button type="button">Enter Dapp</button></a>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -35,7 +40,7 @@ const Navbar = () => {
             <Menu />
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-          <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/"><button type="button">Enter Dapp</button></a>
+          <a href="https://3ezq7-iqaaa-aaaal-aaacq-cai.ic0.app/" target="_blank" rel="noreferrer"><button type="button">Enter Dapp</button></a>
           </div>
         </div>
         )}
