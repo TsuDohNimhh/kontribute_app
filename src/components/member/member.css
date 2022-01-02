@@ -49,12 +49,12 @@
 
 @media screen and (max-width: 550px) {
     .gpt3__blog-container_article-content h3 {
-        font-size: 14px;
+        font-size: 11px;
     }
     .gpt3__blog-container_article-content p {
-        font-size: 10px;
+        font-size: 9.5px;
     }
     .gpt3__blog-container_article-image {
-        height: 45%;
+        height: 46%;
     }
 }
