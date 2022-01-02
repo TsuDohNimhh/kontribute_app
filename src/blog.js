@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from './components';
-import { BlogLanding } from './containers';
+import { BlogLanding, Footer } from './containers';
 
 function Blog () {
     return (
@@ -8,6 +8,7 @@ function Blog () {
         <div className="gradient__bg">
             <Navbar />
             <BlogLanding />
+            <Footer />
         </div>
         </div>
     )

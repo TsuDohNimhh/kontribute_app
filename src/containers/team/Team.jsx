@@ -12,8 +12,8 @@ const Team = () => {
                 <p>About us</p>
             </div>
             <div className="team__members">
-                <Member imgUrl={jesse} text="Jesse" details="Hello this is jesse, im interested in this and that"/>
-                <Member imgUrl={christian} text="Christian" details="Hello this is christian im interestid in a few bits"/>
+                <Member imgUrl={jesse} text="Jesse - Developer" details="Jesse is an aspiring full stack blockchain developer, with interests in research and smart contracts."/>
+                <Member imgUrl={christian} text="Christian - Artist" details="Christian is an artist and animator, with interests in animation and NFT's."/>
             </div>
         </div>
     )

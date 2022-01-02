@@ -21,7 +21,9 @@ const Navbar = () => {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
+          <Link to="/">
           <img src={logo} alt=""/>
+          </Link>
         </div>
         <div className="gpt3__navbar-links_container">
             <Menu />
