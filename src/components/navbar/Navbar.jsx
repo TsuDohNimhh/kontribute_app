@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 const Menu = () => (
     <>
     <Link to="/">
-    <p>Kontribute.App</p>
+    <p>Kontribute.app</p>
     </Link>
-    <Link to="/blog">
+    <Link to="/team-bonsai">
     <p>Development</p>
     </Link>
     </>

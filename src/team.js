@@ -1,17 +1,18 @@
 import React from 'react';
 import { Navbar } from './components';
-import { BlogLanding, Footer } from './containers';
+import { Team, Footer, Roadmap } from './containers';
 
-function Blog () {
+function TeamBonsai () {
     return (
         <div className="App">
         <div className="gradient__bg">
             <Navbar />
-            <BlogLanding />
+            <Team />
+            <Roadmap />
             <Footer />
         </div>
         </div>
     )
 }
 
-export default Blog;
+export default TeamBonsai;

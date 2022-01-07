@@ -1,7 +1,7 @@
 import React from 'react';
-import { Footer, Team, Header } from './containers';
+import { Footer, Collection, Header, Erc20 } from './containers';
 import { CTA, Navbar } from './components';
-import Blog from './blog';
+import TeamBonsai from './team';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -9,7 +9,7 @@ const App = () => {
     return <Router>
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/team-bonsai" element={<TeamBonsai />} />
         </Routes>
     </Router>
 }
@@ -22,7 +22,8 @@ function Home () {
             <Header />
         </div>
         <CTA />
-        <Team />
+        <Collection />
+        <Erc20 />
         <Footer />
         </div>
     )

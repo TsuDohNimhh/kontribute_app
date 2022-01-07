@@ -1,18 +1,17 @@
 import React from 'react';
-import './member.css';
+import './pic.css';
 
-const Member = ({ imgUrl, text, details }) => (
+const Article = ({ imgUrl, name }) => (
   <div className="gpt3__blog-container_article">
     <div className="gpt3__blog-container_article-image">
       <img src={imgUrl} alt="blog_image" />
     </div>
     <div className="gpt3__blog-container_article-content">
       <div>
-        <h3>{text}</h3>
-        <p>{details}</p>
+        <p>{name}</p>
       </div>
     </div>
   </div>
 );
 
-export default Member;
+export default Article;

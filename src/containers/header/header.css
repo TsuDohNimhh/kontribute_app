@@ -35,7 +35,7 @@
 
 .gpt3__header-content__input {
     width: 100%;
-    margin: 2rem 0 1rem;
+    margin: 2rem 0 2rem;
 
     display: flex;
     flex-direction: row;
@@ -72,6 +72,7 @@
 }
 
 .gpt3__header-image {
+    max-width: 560px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -83,6 +84,15 @@
     height: 50%;
 }
 
+@media screen and (min-width: 1800px) {
+    .gpt3__header-content {
+        max-width:50%;
+        margin-right: 15rem;
+    }
+    .gpt3__header-image {
+        max-width: 500px;
+    }
+}
 @media screen and (max-width: 1050px) {
     .gpt3__header {
         flex-direction: column;
@@ -92,6 +102,7 @@
         margin: 0 0 3rem;
     }
 }
+
 
 @media screen and (max-width: 650px) {
     .gpt3__header-content h1 {
