@@ -90,9 +90,9 @@ const Roadmap = () => {
         iconStyle={{ background: 'var(--gradient-text)', color: '#fff' }}
         icon={<FaRegClock />}
       >
-        <h3>Kontribute</h3>
+        <h3>Kontribute IC Dapp</h3>
         <p>
-          After testing and community feedback the  full Kontribute dapp will hit the internet computer mainnet.
+          After testing and community feedback the full Kontribute dapp will hit the internet computer mainnet.
         </p>
       </VerticalTimelineElement>
       </VerticalTimeline>

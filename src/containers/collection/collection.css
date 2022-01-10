@@ -15,8 +15,8 @@
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
-    letter-spacing: -0.04em;
 }
+
 .gpt3__blog-heading p {
     font-family: var(--font-family);
     font-weight: 400;
