@@ -4,6 +4,9 @@ import { CTA, Navbar } from './components';
 import TeamBonsai from './team';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ReactGA from 'react-ga';
+
+ReactGA.pageview(window.location.pathname);
 
 const App = () => {
     return <Router>
