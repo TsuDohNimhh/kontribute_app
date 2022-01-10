@@ -21,4 +21,4 @@ Change the prop called 'name', can also edit NFT description in this file.
 To edit roadmap
 <br>
 src -> containers -> raodmap -> roadmap.jsx <br>
-Under wach '<h3>' tag is the description of each milestone.
+Can see all the content of the roadmap under the jsx tags
