@@ -11,12 +11,12 @@ const Collection = () => (
     </div>
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupB">
-        <Article imgUrl={pic3} name="Eager Warrior"/>
-        <Article imgUrl={pic2} name="Demon General"/>
-        <Article imgUrl={pic1} name="Brash Woman"/>
-        <Article imgUrl={pic4} name="Fierce Knight"/>
-        <Article imgUrl={pic5} name="Lady Rosette"/>
-        <Article imgUrl={pic6} name="Spear Lady"/>
+        <Article imgUrl={pic3} name="Li Qiye"/>
+        <Article imgUrl={pic2} name="The Devil of Minyue"/>
+        <Article imgUrl={pic1} name="Lady Xiulan"/>
+        <Article imgUrl={pic4} name="Lord Gawain Galeas"/>
+        <Article imgUrl={pic5} name="Yu Wei of the Lotus"/>
+        <Article imgUrl={pic6} name="Tang Rou"/>
       </div>
     </div>
   </div>
